@@ -1,0 +1,41 @@
+:root{
+    --text: #ffffff;
+    --bg: #1e58b1;
+    --lblue: ##011C6B;
+    --lred: #A8120B;
+    --font: "Montserrat"
+
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #160a81;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    height: 100px;
+    z-index: 999;
+    animation: decimo 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+}
+@keyframes decimo{
+    0%{
+        transform: translateY(-100px);
+    }
+}
