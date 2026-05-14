@@ -1,0 +1,118 @@
+:root{
+    --text: #ffffff;
+    --bg: #e492e7;
+    --lblue: #ff609d;
+    --lred: #ff9be1;
+    --font: "Montserrat"
+
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #f397cd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    height: auto;
+    z-index: 999;
+    animation: decimo 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+
+}
+
+.topnav {
+   display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+    background-color: #ddbca98f;
+    width: 100%;
+    height: 70px;
+    color: rgb(5, 0, 0);
+}
+.bottomanav{
+   display: flex;
+       height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+
+
+}
+
+
+@keyframes decimo{
+    0%{
+        transform: translateY(-100px);
+    }
+}
+a{
+    color: #0c0109;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 4px;
+    opacity: 0.8;
+    transition: all 200ms linear;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+
+   
+}
+section {
+    min-height: 100vh;
+    height: auto;
+}
+ #s1 {
+    background-image: url(../assets/imagens/MARE-WEST-KIKO-1920x1080-OPEN.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .bottomanav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #e58ac1;
+    padding: 15px 0;
+}
+
+.bottomanav a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 7px;
+    font-size: 18px;
+}
+.video {
+    width: 100%;
+    height: 1100px;
+}
+#s3 {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
