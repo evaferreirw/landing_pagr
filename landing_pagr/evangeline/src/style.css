@@ -1,8 +1,8 @@
 :root{
     --text: #ffffff;
-    --bg: #e492e7;
+    --bg: #1e58b1;
     --lblue: ##011C6B;
-    --lred: #ff9be1;
+    --lred: #A8120B;
     --font: "Montserrat"
 
 }
@@ -23,71 +23,19 @@ nav{
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: #f397cd;
+    background-color: #160a81;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-
-    height: auto;
+    justify-content: center;
+    gap: 2vw;
+    height: 100px;
     z-index: 999;
     animation: decimo 1s ease-in-out;
     transition: all 1s ease-in-out;
 
-
 }
-
-.topnav {
-   display: flex;
- 
-    align-items: center;
-    justify-content: center;
-    background-color: #ddbca98f;
-    width: 100%;
-    height: 70px;
-    color: rgb(5, 0, 0);
-}
-.bottomanav{
-   display: flex;
-       height: 50px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
-}
-
-
 @keyframes decimo{
     0%{
         transform: translateY(-100px);
     }
 }
-a{
-    color: #0c0109;
-    text-decoration: none;
-    font-size: 17px;
-    letter-spacing: 4px;
-    opacity: 0.8;
-    transition: all 200ms linear;
-    font-weight: 400;
-    font-family: "Playfair Display", serif;
-
-   
-}
-section {
-    min-height: 100vh;
-    height: auto;
-}
- #s1 {
-    background-image: url(../assets/imagens/MARE-WEST-KIKO-1920x1080-OPEN.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
- }
- 
-
